@@ -1,0 +1,13 @@
+
+.todoItem{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+
+}
+.delete{
+   background-color: red;
+}
+.completed{
+   text-decoration: line-through;
+}

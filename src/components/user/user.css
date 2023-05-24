@@ -1,0 +1,18 @@
+
+
+.inputGrup{
+   display: flex;
+   flex-direction: column;
+   /* gap: 1em; */
+}
+
+.textOutput{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1em;
+
+}
+.firstName,
+.lastName{
+   text-align: center;
+}
