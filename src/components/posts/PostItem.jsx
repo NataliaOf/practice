@@ -1,11 +1,15 @@
-
+import { deletePostById } from '../../features/post/postSlice';
+import { useDispatch } from 'react-redux';
 import './posts.css';
 
-const PostItem = ()=>{
+const PostItem = ({post})=>{
+   const dispatch = useDispatch()
 
    return (
       <div className="posts">
-         <p>Text</p>
+         <p
+          onClick={()=>dispatch(deletePostById(post.id))}
+         >{post.title}</p>
       </div>
    )
 }

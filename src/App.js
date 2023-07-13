@@ -1,29 +1,17 @@
 
 import './App.css';
-import User from './components/user/User';
-import Posts from './components/posts/Posts';
-import Form from './components/todoApp/Form';
-import TodoItem from './components/todoApp/TodoItem';
-import { useSelector } from 'react-redux';
+import TodoPage from './page/TodoPage';
+import UserTodoPage from './page/UserTodoPage';
+
 
 
 function App() {
-   const todos = useSelector((state)=>state.todo. todos)
-
+  
   return (
     <div className="App">
+     {/* <UserTodoPage/> */}
+     <TodoPage/>
      
-     <User/>
-     <div>
-       <Form/>
-       {todos===[]? ''
-        : todos.map(todo=>(
-           <TodoItem key={todo.id} todo={todo}/>
-         ))
-       }
-     </div>
-    
-     <Posts/>
     </div>
   );
 }

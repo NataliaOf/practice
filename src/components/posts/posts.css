@@ -1,0 +1,5 @@
+.posts>p{
+border: 2px solid rebeccapurple;
+cursor: pointer;
+padding: 10px;
+}

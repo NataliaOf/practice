@@ -8,9 +8,9 @@
    min-height: 100vh;
    padding: 1rem;
    background-color: aqua;
-   display: flex;
+   /* display: flex;
    justify-content: space-around;
-   gap: 3em;
+   gap: 3em; */
 }
 button{
    padding: 0.5rem;
@@ -32,4 +32,15 @@ input{
 p{
   
    margin: 1rem 0;
+}
+
+.user_todo,
+.todo{
+   text-align: center;
+}
+.todo_box{
+   
+   display: flex;
+   justify-content: space-around;
+   gap: 3em;
 }
