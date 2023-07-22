@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useDispatch } from 'react-redux';
-import { addTodo } from '../../store/todo2Slice';
+import { addNewTodo, addTodo } from '../../store/todo2Slice';
 
 const ImputField = ()=>{
    const [text, setText] = useState('');
    const dispatch =  useDispatch();
   
    const addTask =()=>{
-      dispatch(addTodo({text}))
+      dispatch(addNewTodo(text))
       setText('')
    }
 

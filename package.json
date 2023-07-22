@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "cd",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://NataliaOf.github.io/practice",
@@ -44,5 +44,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaOf/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliaOf/practice/issues"
   }
 }

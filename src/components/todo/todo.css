@@ -1,6 +1,13 @@
 .todo_item{
+   width: 70vw;
+   margin: 0 auto;
    display: flex;
-   justify-content: space-around;
+   justify-content:flex-start;
    align-items: center;
-   gap:10px;
+   gap:50px;
+}
+
+.todo_checked:checked+p{
+  text-decoration:line-through;
+   color: red;
 }
